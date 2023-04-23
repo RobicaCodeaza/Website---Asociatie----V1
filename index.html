@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Administrarea Imobilelor de catre firma de profesionisti"
+    />
+    <link rel="icon" href="assets/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+    </style>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Administrare Imobile | R&A</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body id="home">
+    <div class="navigation">
+      <div class="logo-box">
+        <a href="#header" class="logo-box__link">
+          <img
+            class="logo-box__img"
+            src="assets/logo-no-background.png"
+            alt="R&A Logo"
+        /></a>
+      </div>
+      <nav class="navigation__box">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#home" class="link link--deemp">
+              <ion-icon
+                name="home-outline"
+                class="navigation__icon icon--demp"
+              ></ion-icon>
+              Home</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-features" class="link link--deemp">
+              <ion-icon
+                name="hammer-outline"
+                class="navigation__icon icon--demp"
+              ></ion-icon>
+              Servicii</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="link link--deemp">
+              <ion-icon
+                name="document-text-outline"
+                class="navigation__icon icon--demp"
+              ></ion-icon>
+              Documente</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-about-us" class="link link--deemp">
+              <ion-icon
+                name="information-circle-outline"
+                class="navigation__icon icon--demp"
+              ></ion-icon>
+              Despre Noi</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-footer" class="link link--deemp">
+              <ion-icon
+                name="call-outline"
+                class="navigation__icon icon--demp"
+              ></ion-icon>
+              Contact</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="https://www.e-bloc.ro/" class="link link--deemp">
+              <ion-icon
+                name="business-outline"
+                class="navigation__icon icon--demp"
+              ></ion-icon>
+              Avizier</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-cta" class="link link--emp"
+              ><ion-icon
+                name="reader-outline"
+                class="navigation__icon icon--emp"
+              ></ion-icon
+              ><span>Cerere|Informare</span><i></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </div>
+    <header class="header" id="header">
+      <div class="header__box">
+        <h1 class="heading--primary">
+          <span class="heading--primary--above">Administrare Imobile</span>
+          <span class="heading--primary--sub">- București și Ilfov -</span>
+        </h1>
+        <div class="company-details">
+          <span class="company-name">R&A</span>
+          <span class="company-slogan">
+            <span> Exact necesar. Facem totul mai simplu. </span>
+            <span
+              >Oferim liniștea căminului tău mult căutată.Acum poți avea
+              garanția unor servicii de calitate aduse de o echipa tânără de
+              profesioniști.</span
+            >
+          </span>
+        </div>
+
+        <div class="customers">
+          <div class="customers__imgs">
+            <img src="assets/customers/customer-1.jpg" alt="customer photo" />
+            <img src="assets/customers/customer-2.jpg" alt="customer photo" />
+            <img src="assets/customers/customer-3.jpg" alt="customer photo" />
+            <img src="assets/customers/customer-4.jpg" alt="customer photo" />
+            <img src="assets/customers/customer-5.jpg" alt="customer photo" />
+            <img src="assets/customers/customer-6.jpg" alt="customer photo" />
+          </div>
+          <p class="customers__text-box u-center-text">
+            Alătura-te nouă:
+            <span class="customers__text text--special">10+</span>
+            blocuri administrate si peste
+            <span class="customers__text text--special">1000</span>
+            apartamente aflate in grija noastră!
+          </p>
+        </div>
+        <button class="btn btn--cta btn--cta--1">
+          <a href="#section-cta" class="link link--emp"
+            ><ion-icon
+              name="reader-outline"
+              class="navigation__icon icon--emp"
+            ></ion-icon
+            ><span>Cerere|Informare</span><i></i>
+          </a>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section
+        class="section section-features section--hidden"
+        id="section-features"
+      >
+        <div class="u-center-text">
+          <h2 class="heading--secondary">Ce oferim?</h2>
+        </div>
+        <div class="features">
+          <div class="row">
+            <div class="col-1-of-3 features__block">
+              <div class="features__img-box">
+                <img
+                  class="features__img"
+                  src="assets/administrare_financiara.svg"
+                  alt="Administre financiara"
+                />
+              </div>
+              <div class="features__text u-center-text">
+                Administrarea Financiara
+              </div>
+            </div>
+            <div class="col-1-of-3 features__block">
+              <div class="features__img-box">
+                <img
+                  class="features__img"
+                  src="assets/undraw_calculator_re_alsc.svg"
+                  alt="Person Calculating"
+                />
+              </div>
+              <div class="features__text u-center-text">Casierie</div>
+            </div>
+            <div class="col-1-of-3 features__block">
+              <div class="features__img-box">
+                <img
+                  class="features__img"
+                  src="assets/administrare_tehnica.svg"
+                  alt="Administrare Tehnica"
+                />
+              </div>
+              <div class="features__text u-center-text">
+                Administrare tehnica
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1-of-3 features__block">
+              <div class="features__img-box">
+                <img
+                  class="features__img"
+                  src="assets/managerial.svg"
+                  alt="Administrare Manageriala"
+                />
+              </div>
+              <div class="features__text u-center-text">
+                Administrare Manageriala
+              </div>
+            </div>
+            <div class="col-1-of-3 features__block">
+              <div class="features__img-box">
+                <img
+                  class="features__img"
+                  src="assets/mentenanta_electrica.svg"
+                  alt="Mentenanta electrica"
+                />
+              </div>
+              <div class="features__text u-center-text">
+                Mentenanta Electrica
+              </div>
+            </div>
+            <div class="col-1-of-3 features__block">
+              <div class="features__img-box">
+                <img
+                  class="features__img"
+                  src="assets/mentenanta_tehnica_24h.svg"
+                  alt="Mentenanta tehnica"
+                />
+              </div>
+              <div class="features__text u-center-text">
+                Mentenanta Tehnica <span class="text--special">(24/24)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-details section--hidden">
+        <div class="u-center-text">
+          <h2 class="heading--secondary">
+            Serviciile noastre acopera complet nevoile administrarii impecabile
+            ale imobilului dumneavoastra!
+          </h2>
+        </div>
+        <div class="details-plan details-plan--complete u-mb-medium">
+          <i class="special--top"></i>
+          <i class="special--bottom"></i>
+          <div class="col--img">
+            <div class="plan__img-box">
+              <img
+                class="plan__img"
+                src="assets/administrare_financiara.svg"
+                alt="Administre financiara"
+              />
+            </div>
+          </div>
+          <div class="col--text">
+            <div class="plan__text-box">
+              <p class="plan-name">Administrare Financiara</p>
+              <p class="plan-introduction u-mb-small"></p>
+
+              <ul class="plan__text-box__list">
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Prelucrare și operare documente asociație: facturi,
+                    indecși, extrase, chitanțe;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Întocmire registre: registru fond de rulment, fond de
+                    reparații, fond de penalizări;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Întocmire și depunere: declarații fiscale, contracte
+                    angajați;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Întocmire somații către restanțieri și transmiterea
+                    acestora la cererea președintelui;</span
+                  >
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Suport și întocmire documentație pentru adunarea generală
+                    obligatorie</span
+                  >
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Tipărire dosar lunar, note de calcul, fluturași contoare;
+                    după aprobarea președintelui și a cenzorului;
+                  </span>
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>Suport în întocmirea deciziilor de comitet. </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-plan details-plan--complete u-mb-medium">
+          <i class="special--top"></i>
+          <i class="special--bottom"></i>
+
+          <div class="col--text">
+            <div class="plan__text-box">
+              <p class="plan-name">Casierie</p>
+              <p class="plan-introduction u-mb-small"></p>
+
+              <ul class="plan__text-box__list">
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Efectuarea de încasări si plăți în numerar în locuri
+                    sigure, puse la dispoziție de către Asociația de proprietari
+                    – cu frecvența în funcție de nevoile dumneavoastră;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Asistență în vederea organizării departamentului de
+                    contabilitate</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Prestatorul asigura, la cererea Beneficiarului, efectuarea
+                    încasării cotelor de întreținere prin organizarea „casieriei
+                    mobile” pentru persoanele cu handicap; Plată online; Plată
+                    la terminalele Pay-Point și Un-Doi.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col--img">
+            <div class="plan__img-box">
+              <img
+                class="plan__img"
+                src="assets/undraw_calculator_re_alsc.svg"
+                alt="Casierie"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="details-plan details-plan--complete u-mb-medium">
+          <i class="special--top"></i>
+          <i class="special--bottom"></i>
+          <div class="col--img">
+            <div class="plan__img-box">
+              <img
+                class="plan__img"
+                src="assets/administrare_tehnica.svg"
+                alt="Administre Tehnica"
+              />
+            </div>
+          </div>
+          <div class="col--text">
+            <div class="plan__text-box">
+              <p class="plan-name">Administrare Tehnica</p>
+              <ul class="plan__text-box__list">
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Inspecție tehnică periodică: inspectarea subsolului;
+                    inspectarea curățeniei; inspectarea spațiului aferent
+                    ghenei; inspectare instalații părți comune; inspectarea
+                    interfonului; inspectarea liftului; inspectarea căilor de
+                    acces;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>Achiziționare materiale de curățenie;</span>
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>
+                    Supraveghere lucrări (Predarea amplasamentului către
+                    prestator, recepția lucrării);</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Întocmire somații către restanțieri și transmiterea
+                    acestora la cererea președintelui;</span
+                  >
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>Ofertare; </span>
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>Evidența inspecțiilor periodice </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-plan details-plan--complete u-mb-medium">
+          <i class="special--top"></i>
+          <i class="special--bottom"></i>
+          <div class="col--text">
+            <div class="plan__text-box">
+              <p class="plan-name">Administrare Manageriala</p>
+              <ul class="plan__text-box__list">
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span> Ofertare lucrări;</span>
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Suport în calcularea bugetului de investiții necesar
+                    adunării generale;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>
+                    Sugestii și propuneri pentru reparații, modernizări și
+                    investiții;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Întocmire sesizări, adrese către terți și monitorizarea
+                    acestora;</span
+                  >
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Controlul îndeplinirii obligațiilor contractuale; Suport și
+                    întocmire documentație pentru adunarea generală;
+                  </span>
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>Suport în completarea cărții de imobil.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col--img">
+            <div class="plan__img-box">
+              <img
+                class="plan__img"
+                src="assets/managerial.svg"
+                alt="Administre Manageriala"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="details-plan details-plan--complete u-mb-medium">
+          <i class="special--top"></i>
+          <i class="special--bottom"></i>
+          <div class="col--img">
+            <div class="plan__img-box">
+              <img
+                class="plan__img"
+                src="assets/mentenanta_electrica.svg"
+                alt="Mentenanta electrica"
+              />
+            </div>
+          </div>
+          <div class="col--text">
+            <div class="plan__text-box">
+              <p class="plan-name">Mentenanta Electrica</p>
+
+              <ul class="plan__text-box__list">
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span> Inspectarea instalațiilor electrice; </span>
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>
+                    Intervenții de urgenta (avarie ce nu suportă amânare) în
+                    maxim 3 ore.
+                  </span>
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>
+                    Intervenții in maxim 24 de ore, în timpul programului de
+                    lucru;
+                  </span>
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span> Inspectarea instalațiilor termice;</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="details-plan details-plan--complete u-mb-medium">
+          <i class="special--top"></i>
+          <i class="special--bottom"></i>
+          <div class="col--text">
+            <div class="plan__text-box">
+              <p class="plan-name">Mentenanta Tehnica</p>
+
+              <ul class="plan__text-box__list">
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>
+                    Inspecție tehnică periodică: verificare pompe hidrofor,
+                    verificare pompe submersibile;</span
+                  >
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span>Verificare automatizare centrală termică;</span>
+                </li>
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Verificare instalație termică cât și cea hidraulică;</span
+                  >
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Intervenții de urgență (avarie ce nu suportă amânare) în
+                    maxim 3 ore.</span
+                  >
+                </li>
+
+                <li class="plan__text-box__list__item">
+                  <ion-icon
+                    class="plan__text-box__list__icon"
+                    name="checkmark-outline"
+                  ></ion-icon>
+                  <span
+                    >Intervenții în maxim 24 de ore, în timpul programului de
+                    lucru;</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col--img">
+            <div class="plan__img-box">
+              <img
+                class="plan__img"
+                src="assets/mentenanta_tehnica_24h.svg"
+                alt="Mentenanta Tehnica"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text">
+          <button class="btn btn--cta btn--cta--2">
+            <a href="#section-cta" class="link link--emp"
+              ><ion-icon
+                name="reader-outline"
+                class="navigation__icon icon--emp"
+              ></ion-icon
+              ><span>Solicita o oferta chiar acum!</span><i></i>
+            </a>
+          </button>
+        </div>
+      </section>
+      <section
+        class="section section-about-us section--hidden"
+        id="section-about-us"
+      >
+        <div class="u-center-text">
+          <h2 class="heading--secondary">Ceea ce ne recomanda:</h2>
+        </div>
+        <div class="feature-container">
+          <div class="feature-card">
+            <ion-icon class="feature-icon" name="hourglass-outline"></ion-icon>
+            <div class="feature-content">
+              <p class="feature-title">Rezolvare rapida si certa!</p>
+              <p class="feature-text">
+                Oferim solutii prompte de intampinare a nevoilor dumneavoastra.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <ion-icon
+              class="feature-icon"
+              name="search-circle-outline"
+            ></ion-icon>
+            <div class="feature-content">
+              <p class="feature-title">Misiune</p>
+              <p class="feature-text">
+                Gestionăm proprietatea într-un mod care să facă lucrurile cât
+                mai ușor, transparente și accesibile posibil.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <ion-icon class="feature-icon" name="hand-left-outline"></ion-icon>
+            <div class="feature-content">
+              <p class="feature-title">Valori</p>
+              <p class="feature-text">
+                Responsabilitatea, Flexibilitatea dar si Munca în echipă sunt
+                valorile care ne caracterizeaza!
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <ion-icon class="feature-icon" name="bar-chart-outline"></ion-icon>
+            <div class="feature-content">
+              <p class="feature-title">Viziune</p>
+              <p class="feature-text">
+                Ne dorim sa devenim alegerea nr.1 in gestionarea imobilelor
+                prin: eficiență, integritate și încredere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--cta section--hidden" id="section-cta">
+        <div class="u-center-text">
+          <h2 class="heading--secondary">
+            O echipa de profesionisti va asteapta cu raspunsurile potrivite la
+            orice stare a Imobilelor dvs !
+          </h2>
+        </div>
+        <div class="container--form grid--form">
+          <div class="oferta">
+            <form class="form form--oferta">
+              <h3 class="form-heading">Solicita Oferta</h3>
+              <ul class="social-links">
+                <li>
+                  <a href="https://www.facebook.com"
+                    ><ion-icon
+                      name="logo-facebook"
+                      class="social-icon"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://myaccount.google.com"
+                    ><ion-icon name="logo-google" class="social-icon"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com"
+                    ><ion-icon
+                      name="logo-linkedin"
+                      class="social-icon"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+              <!-- <p class="more-details-form">
+                sau contacteaza-ne prin celelalte metode
+                <span>&rarr;</span>
+              </p> -->
+
+              <input
+                autocomplete="off"
+                type="name"
+                placeholder="Nume Complet"
+                required
+              />
+              <label for="name">Nume Complet</label>
+              <input
+                autocomplete="off"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                autocomplete="off"
+                type="text"
+                placeholder="Bloc"
+                required
+              />
+              <label for="text">Bloc</label>
+              <input
+                autocomplete="off"
+                type="text"
+                placeholder="Detalii Asociatie"
+                required
+              />
+              <label for="text">Detalii Asociatie</label>
+              <button type="submit" class="btn--form btn--form-raport">
+                Cere oferta
+              </button>
+            </form>
+            <div class="cover cover--oferta">
+              <h3 class="form-heading">Vino sa afli despre oferta!</h3>
+              <p class="cover-text">
+                Alatura-te comunitatii de administrare a imobilelor!
+              </p>
+              <button type="submit" class="btn--form btn--form-cover-oferta">
+                Solicita Oferta
+              </button>
+            </div>
+          </div>
+          <div class="create-raport">
+            <form class="form form--create-raport">
+              <h3 class="form-heading">Raport</h3>
+              <ul class="social-links">
+                <li>
+                  <a href="https://www.facebook.com"
+                    ><ion-icon
+                      name="logo-facebook"
+                      class="social-icon"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://myaccount.google.com"
+                    ><ion-icon name="logo-google" class="social-icon"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com"
+                    ><ion-icon
+                      name="logo-linkedin"
+                      class="social-icon"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+              <!-- <p class="more-details-form">
+                sau contacteaza-ne prin celelalte metode
+                <span>&rarr;</span>
+              </p> -->
+              <input
+                autocomplete="off"
+                type="name"
+                placeholder="Nume Complet"
+                required
+              />
+              <label for="name">Nume Complet</label>
+              <input
+                autocomplete="off"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                autocomplete="off"
+                type="text"
+                placeholder="Asociatie"
+                required
+              />
+              <label for="text">Asociatie</label>
+              <input
+                autocomplete="off"
+                type="text"
+                placeholder="Descriere sugestie|problema"
+                required
+              />
+              <label for="text">Descriere sugestie|problema</label>
+              <button type="submit" class="btn--form btn--form-raport">
+                Semnaleaza Propunerea
+              </button>
+            </form>
+            <div class="cover cover--raport">
+              <h3 class="form-heading">Comunica cu noi!</h3>
+              <p class="cover-text u-center-text">
+                Ai vreo sugestie? Problema? Ne-ar placea sa o auzim!
+              </p>
+              <button type="submit" class="btn--form btn--form-cover-raport">
+                Raport
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section section--hidden" id="section-footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <div class="logo-box-footer">
+            <a href="#" class="logo-box__link logo-box__link-footer">
+              <img
+                class="logo-box__img"
+                src="assets/logo-no-background.png"
+                alt="R&A Logo"
+            /></a>
+          </div>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-li" href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-li" href="#"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-li" href="#"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright u-center-text">
+            Copyright &copy; <span class="year">2026</span> by R&A,Inc.All
+            rights reserved
+          </p>
+        </div>
+        <div class="adress-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p>
+              Strada Nuferilor, Pm 200, Scara 3, Et 9, Ap 188, Bucuresti, 032275
+            </p>
+            <div class="adress-footer-li">
+              <a class="footer-li" href="tel:415-201-6370">415-201-6370</a>
+              <a class="footer-li" href="mailto:stoicarobert38@yahoo.com"
+                >stoicarobert38@yahoo.com</a
+              >
+            </div>
+          </address>
+        </div>
+
+        <div class="nav-col">
+          <p class="footer-heading">Companie</p>
+          <ul class="footer-navigation">
+            <li><a class="footer-li" href="#">Despre Companie</a></li>
+            <li><a class="footer-li" href="#">Oferta</a></li>
+            <li><a class="footer-li" href="#">Servicii</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">Resurse</p>
+          <ul class="footer-navigation">
+            <li><a class="footer-li" href="#">Documente</a></li>
+            <li><a class="footer-li" href="#">Legislatia</a></li>
+            <li><a class="footer-li" href="#">Privacy & terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll('.feature-card'), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        'max-glare': 1,
+      });
+    </script>
+  </body>
+</html>
