@@ -371,7 +371,7 @@ body {
   align-items: center;
   flex: 0 1 50%;
 }
-@media only screen and (max-width: 56.25em) {
+@media (max-width: 75em) {
   .col--img {
     flex-basis: 30%;
   }
@@ -382,7 +382,7 @@ body {
   max-height: 35rem;
   flex: 0 1 50%;
 }
-@media only screen and (max-width: 56.25em) {
+@media (max-width: 75em) {
   .col--text {
     flex-basis: 70%;
   }
