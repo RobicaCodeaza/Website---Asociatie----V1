@@ -54,7 +54,6 @@ Primary for font color : #f7f7f7
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 @media (min-width: 120em) {
   html {
