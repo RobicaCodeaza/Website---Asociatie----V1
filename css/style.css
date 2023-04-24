@@ -144,6 +144,8 @@ body {
 }
 
 .link, .link:link, .link:visited {
+  position: relative;
+  display: inline-block;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,8 +155,8 @@ body {
   padding: 0.6rem 1.2rem;
   text-decoration: none;
   text-transform: uppercase;
-  border: 0.5px solid #1971c2;
   border-radius: 0.5rem;
+  border: 0.5px solid #1971c2;
   transition: all 0.4s;
 }
 
@@ -182,12 +184,12 @@ body {
 .link--emp:link, .link--emp:visited {
   letter-spacing: 1px;
   position: relative;
-  background: #ff7730;
+  background-color: #ff7730;
   color: #333;
 }
 .link--emp:hover {
   letter-spacing: 1.3px;
-  background: #e8f1f9;
+  background-color: #e8f1f9;
   box-shadow: 0 0 1rem #145a9b;
   color: #1971c2;
 }
@@ -216,7 +218,7 @@ body {
   border: 0.15rem solid #1971c2;
   left: 80%;
   top: -0.35rem;
-  background: #ff7730;
+  background-color: #ff7730;
   transform: translateX(-50%);
   transition: 0.5s;
 }
@@ -243,6 +245,7 @@ body {
 
 .btn {
   border: none;
+  border-radius: 5px;
   display: inline-block;
   width: 30%;
 }
@@ -335,7 +338,7 @@ body {
   border-radius: 9px;
   max-width: 125rem;
   margin: 0 auto;
-  max-height: 40rem;
+  max-height: 55rem;
   display: flex;
   border: 1px solid #5f5f6d;
   border-bottom: 1px solid rgba(95, 95, 109, 0.4862745098);
@@ -376,15 +379,25 @@ body {
     flex-basis: 30%;
   }
 }
+@media only screen and (max-width: 56.25em) {
+  .col--img {
+    flex-basis: 20%;
+  }
+}
 
 .col--text {
   padding: 2.4rem 3.6rem;
-  max-height: 35rem;
+  max-height: 80%;
   flex: 0 1 50%;
 }
 @media (max-width: 75em) {
   .col--text {
     flex-basis: 70%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .col--text {
+    flex-basis: 80%;
   }
 }
 
@@ -728,6 +741,7 @@ body {
 }
 @media only screen and (max-width: 56.25em) {
   .header__box {
+    padding: 3rem;
     width: 100%;
   }
 }
@@ -743,6 +757,11 @@ body {
   display: inline-block;
   font-size: 2.4rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .company-name {
+    font-size: 2.8rem;
+  }
+}
 
 .company-slogan {
   display: flex;
@@ -754,6 +773,11 @@ body {
   letter-spacing: 1px;
   line-height: 1.2;
 }
+@media only screen and (max-width: 56.25em) {
+  .company-slogan {
+    line-height: 1.5;
+  }
+}
 
 .customers {
   margin-top: auto;
@@ -761,6 +785,11 @@ body {
   align-items: center;
   gap: 2.4rem;
   width: 95%;
+}
+@media only screen and (max-width: 56.25em) {
+  .customers {
+    flex-direction: column;
+  }
 }
 .customers__imgs {
   display: flex;
@@ -773,6 +802,12 @@ body {
   border: 3px solid #fdf2e9;
   margin-right: -1.6rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .customers__imgs img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
 .customers__imgs img:last-child {
   margin-right: 0;
 }
@@ -781,6 +816,12 @@ body {
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: 0.2px;
+}
+@media only screen and (max-width: 56.25em) {
+  .customers__text-box {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
 }
 .customers .text--special {
   display: inline-block !important;
